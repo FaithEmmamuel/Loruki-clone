@@ -1,5 +1,5 @@
 .container{
-    max-width: 1100px; 
+    max-width: 1100px;
     margin: 0 auto;
     overflow: auto;
     padding: 0 40px;
@@ -16,8 +16,8 @@
 
 .btn{
     display: inline-block;
-    padding: 10px 30px;
     cursor: pointer;
+    padding: 10px 30px;
     background-color: var(--primary-color);
     color: #fff;
     border: none;
@@ -31,9 +31,10 @@
 
 .btn:hover{
     transform: scale(0.98);
+    background-color: black;
 }
 
-/* Backgrounds and buttons */
+/* Backgrounds & colored bttons */
 .bg-primary, 
 .btn-primary{
     background-color: var(--primary-color);
@@ -53,11 +54,11 @@
 }
 
 .bg-primary a, 
-.btn-primary,
+.btn-primary a,
 .bg-secondary a, 
-.btn-secondary,
+.btn-secondary a,
 .bg-dark a, 
-.btn-dark{
+.btn-dark a{
     color: #fff;
 }
 
@@ -67,13 +68,11 @@
     color: #333;
 }
 
-.text-primary{
-    color: var(--primary-color);
-}
 /* Text sizes */
 .lead{
-    font-size: 20px;
+font-size: 20px;
 }
+
 .sm{
     font-size: 1rem;
 }
@@ -111,11 +110,6 @@
     color: #fff;
 }
 
-.alert-error{
-    background-color: var(--error-color);
-    color: #fff;
-}
-
 .flex{
     display: flex;
     justify-content: center;
@@ -136,7 +130,7 @@
     grid-template-columns: repeat(3, 1fr);
 }
 
-/* Margin */
+/* margin */
 .my-1{
     margin: 1rem 0;
 }
@@ -177,7 +171,7 @@
     margin: 4rem;
 }
 
-/* Padding*/
+/* padding */
 .py-1{
     padding: 1rem 0;
 }
