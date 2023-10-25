@@ -312,6 +312,9 @@ pre, code{
     .cloud .grid,
     .footer .grid,
     .features-main .grid,
+    .features-head .grid,
+    .features-sub-head .grid,
+    .docs-head .grid,
     .docs-main .grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -343,6 +346,7 @@ pre, code{
     .docs-head{
         text-align: center;
     }
+
     .features-head img,
     .features-sub-head img,
     .docs-head img{
