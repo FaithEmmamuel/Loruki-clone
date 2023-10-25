@@ -93,7 +93,7 @@ img{
 
 .showcase .grid{
     overflow: visible;
-    grid-template-columns: 55% 45%;
+    grid-template-columns: 55% auto;
     gap: 30px;
 }
 
@@ -311,10 +311,7 @@ pre, code{
     .cli .grid,
     .cloud .grid,
     .footer .grid,
-    .features-head .grid,
-    .features-sub-head .grid,
     .features-main .grid,
-    .docs-head .grid,
     .docs-main .grid{
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
@@ -342,20 +339,14 @@ pre, code{
     }
 
     .features-head,
+    .features-sub-head,
     .docs-head{
         text-align: center;
-        animation: slideInFromTop 1s ease-in;
     }
     .features-head img,
     .features-sub-head img,
     .docs-head img{
         justify-self: center;
-        margin: auto;
-    }
-
-    .features-sub-head{
-        text-align: center;
-        animation: slideInFromBottom 1s ease-in;
     }
 
     .features-main .grid > *:first-child{
@@ -397,5 +388,9 @@ pre, code{
     .navbar ul{
         padding: 10px;
         background-color: rgb(0, 0, 0, 0.1);
+    }
+
+    .showcase-form{
+        width: 300px;
     }
 }
