@@ -82,6 +82,7 @@ img{
     color: #fff;
     position: relative;
     overflow-x: hidden;
+    display: flex;
 }
 
 .showcase h1{
@@ -397,10 +398,5 @@ pre, code{
     .navbar ul{
         padding: 10px;
         background-color: rgb(0, 0, 0, 0.1);
-    }
-
-    .showcase-text,
-    .showcase-form{
-        overflow-x: hidden;
     }
 }
