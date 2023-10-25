@@ -18,7 +18,7 @@
 body{
     font-family: 'lato', sans-serif;
     color: #333;
-    line-height: 1.6;
+    line-height: 1.6;overflow: hidden;
 }
 
 ul{
@@ -81,8 +81,6 @@ img{
     background-color: var(--primary-color) ;
     color: #fff;
     position: relative;
-    overflow-x: hidden;
-    display: flex;
 }
 
 .showcase h1{
